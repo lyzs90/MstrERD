@@ -1,11 +1,11 @@
 
 # Pretty schema diagrams for MicroStrategy
 
-This notebook demonstrates how to convert the generally unhelpful MicroStrategy schema into human-readable JSON. We can then use a diagramming library such as JointJS or GoJS to draw aesthetically pleasing entity relationship diagrams.
+This notebook demonstrates how to convert the generally unhelpful MicroStrategy schema into human-readable JSON. We can then use a diagramming library such as JointJS or GoJS to draw aesthetically pleasing entity relationship diagrams. 
 
 ### Export MicroStrategy project schema
 
-The schema can be obtained in Developer from 'Schema' > 'Export Project Schema'. We will be using the Table Catalog - Logical View which contains a list of all warehouse tables and their attributes and facts.
+We will use the schema from the MicroStrategy Tutorial. The schema can be obtained in Developer from 'Schema' > 'Export Project Schema'. Export the Table Catalog - Logical View which contains a list of all warehouse tables and their attributes and facts.
 
 
 ```python
