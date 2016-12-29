@@ -1,0 +1,53 @@
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+circle:hover {
+    fill: #eee;
+}
+
+#tooltip {
+    position: absolute;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: #eee;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px #fff;
+    -moz-box-shadow: 4px 4px 10px #fff;
+    box-shadow: 4px 4px 10px #fff;
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input#targetNode {
+    border-radius: 5px;
+    min-width: 250px;
+    padding: 7px;
+}
+
+button.searchBtn {
+    border-radius: 5px;
+    padding: 7px;
+}
+
+button.searchBtn:hover {
+    background-color: #fff;
+}

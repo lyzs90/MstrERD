@@ -1,0 +1,26 @@
+{
+  "name": "mstr-erd",
+  "version": "1.0.0",
+  "description": "D3 Network for MSTR Schema",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "serve": "start http://localhost:3000 && serve erd_d3",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyzs90/MstrERD.git"
+  },
+  "author": "lyzs90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyzs90/MstrERD/issues"
+  },
+  "homepage": "https://github.com/lyzs90/MstrERD#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "serve": "^2.1.2"
+  }
+}
